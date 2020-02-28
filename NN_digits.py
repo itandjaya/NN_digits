@@ -7,7 +7,7 @@ from scipy.optimize import fmin_bfgs, minimize;     #   To use built-in minimize
 
 class NN_digits:
 
-    def __init__(self, X = None, y = None, num_layers = 4, arr_layer_sizes = [400,50,12,10]):
+    def __init__(self, X = None, y = None, num_layers = 3, arr_layer_sizes = [28*28,25,10]):
 
         self.var_lambda     = 0;
         self.var_alpha      = 0.5;
