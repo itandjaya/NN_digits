@@ -11,8 +11,7 @@ class NN_digits:
 
         self.var_lambda     = 0;
         self.var_alpha      = 0.5;
-        self.learning_iter  = 10000;            ##  With current weights initialization,
-                                                ##  the weights should converge at iter ~= 2.5k.
+        self.learning_iter  = 10000;            ##  number of learning iterations.
         self.J_Cost_values  = [];
 
         self.NUM_LAYERS     = num_layers;       ## 4-layers NN: input layer, inter-layer1, 
